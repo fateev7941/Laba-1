@@ -7,9 +7,9 @@ inline List<T>::List() {}
 template<class T>
 inline List<T>::List(const List<T>& other)
 {
-	this->_size = other._size; // копируем размер
+	this->_size = 0;
 	List::Node* temp = other.first;	// начиная с первого
-	for (size_t i = 0; i < this->_size; i++)	// в цикле для каждого элемента
+	for (size_t i = 0; i < other._size; i++)	// в цикле для каждого элемента
 	{
 		this->push_back(temp->data);		// добавляем в конец текущий элемент
 		temp = temp->next_ptr;				// переходим к следующему элементу
