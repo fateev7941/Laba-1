@@ -139,7 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AdministrativeStaff.cpp" />
+    <ClCompile Include="Keeper.cpp" />
     <ClCompile Include="laba_05_01_01.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="Teacher.cpp" />
+    <ClCompile Include="University.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdministrativeStaff.h" />
+    <ClInclude Include="Keeper.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="Teacher.h" />
+    <ClInclude Include="University.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="List.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
